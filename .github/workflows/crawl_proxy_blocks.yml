@@ -15,8 +15,7 @@ jobs:
       actions: write
     timeout-minutes: 120
     # Only run on the original repository, not forks
-    if: github.repository == 'huldenbusenbark-web/OpenProxyDB'
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
