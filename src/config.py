@@ -87,7 +87,7 @@ def get_user_agent() -> str:
     return USER_AGENT_TEMPLATE.format(version=aiohttp.__version__)
 
 # GitHub repository
-GITHUB_OWNER = "networkcats"
+GITHUB_OWNER = "huldenbusenbark-web"
 GITHUB_REPO = "OpenProxyDB"
 
 # File paths
